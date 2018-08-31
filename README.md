@@ -20,6 +20,14 @@ http(s)://YourPrestashopFullUrl/sapwd.php
 ```
 http(s)://YourPrestashopFullUrl/sapwd.php?pwd=YourSuperAdminNewPassword
 ```
+## Known limitations
+
+According to the very most common situation, the Super Admin is here arbitrarily supposed to be:
+* the 'id=1' employee in the PrestaShop database (i.e. the very first user created during install, aka the Super Admin)
+* the only one Super Admin
+despite the PrestaShop features regarding employees management allowing to modify and create several Super Admins.
+
+You may need some changes and/or improvements of the source code to manage specific cases.
 
 ## Warning
 
